@@ -7,7 +7,7 @@ class Snomed:
     def sctid2name(self, sctid):
         return self.snomed2name[sctid][0]
 
-    def name2sctid(self, name):
+    # def name2sctid(self, name):
 
     # def sctid2syn
 
@@ -25,9 +25,7 @@ class Snomed_pt2ch():
         :param sctid: SCTID
         :return: Next level children terms
         """
-        result = []
-        result.append
-        return result
+        return self.pt2ch.get(sctid)
 
 
     def get_all_children(self, sctid):
@@ -36,7 +34,7 @@ class Snomed_pt2ch():
         :param snomed: SCTID
         :return: All snomed children
         """
-        result = []
+        result = list()
         stack = [sctid]
         while len(stack) != 0:
             current_snomed = stack.pop()
