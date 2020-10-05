@@ -27,11 +27,10 @@ class Snomed_pt2ch():
         """
         return self.pt2ch.get(sctid)
 
-
     def get_all_children(self, sctid):
         """
         Get all children of a snomed term
-        :param snomed: SCTID
+        :param sctid: SCTID
         :return: All snomed children
         """
         result = list()
