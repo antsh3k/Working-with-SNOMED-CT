@@ -4,7 +4,7 @@ This repository provides notebooks & scripts for the exploration and analysis of
 ## Reproduce a SNOMED-CT MedCAT CDB
 We have broken this process down into two stages.
 
-### Download and Parse Soure Data
+### Download and Parse Source Data
 We supply code to parse the following files:
 - [SNOMED-CT UK Release](https://isd.digital.nhs.uk/trud3/user/authenticated/group/0/pack/26): This inlcudes the international and UK specific extended terms.
 - [SNOMED-CT UK Drug Extension](https://isd.digital.nhs.uk/trud3/user/authenticated/group/0/pack/26): This includes the UK specific brand names, dosages, manufacturers used in UK wide clinical practise. This is updated more frequently than the core terminology
